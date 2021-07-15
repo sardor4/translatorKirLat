@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Переводчик</title>
+</head>
+<body>
+    <header class="header">
+        <div class="interpreter">
+            <div class="lenguages__content">
+                <div class="language__content">
+                    <button class="language" id="language">Kirill</button>
+                </div>
+                <figure class="languages__change">⇋</figure>
+                <div class="language__content">
+                    <button class="language" id="language2">Lotin</button>
+                </div>
+            </div>
+            <div class="enter__content">
+                <div class="enter1">
+                    <textarea name="" id="kirill" cols="30" rows="10" class="textarea" placeholder="Введите текст"></textarea>
+                </div>
+                <div class="enter2">
+                    <textarea name="" id="lotin" cols="30" rows="10" class="textarea__disab" placeholder="Перевод..." readonly></textarea>
+                </div>
+            </div>
+            <span onclick="copy()" class="save" title="Скопировать">Save</span>
+        </div>
+    </header>
+
+    <script src="assets/script/jquery.js"></script>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
